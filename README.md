@@ -1,5 +1,49 @@
 # JetBrains_Useful
+
 JetBrains IDE를 잘 써보자
+
+## 이거 진짜 좋아요 2022.12월 버전
+
+### Relate Symbol
+
+| 단축키                | Preference KeyMap Info |
+|--------------------|------------------------|
+| CMD + CTRL + 위 화살표 | Main Menu              | Code | Code Completion | Cyclic Expand Word                      |
+
+    CMD + B 처럼 코드 탐색(navigation) 탭에 있는 단축키 입니다.
+
+    Main Menu | Navigate | Goto by Reference Actions | Go to Declaration or Usages
+    CMD + B 는 현재 사용된 메소드의 상위를 추적하죠?
+    
+    Main Menu | Edit | Find Usages | Find Usages
+    OPT + F7은 현재 사용된 메소드가 어디서 사용된지 추적합니다.
+
+    Main Menu | Navigate | Goto by Reference Actions | Related Symbol...
+    Relate Symbol은 관련 추적내용과 관련있는? 비슷한 상징으로 된걸 추적해주는 단축키에요
+    route
+
+#### 컨트롤러
+
+    컨트롤러에서 사용시 관련된 모델, 뷰, 레이아웃 위치, 스키마, 라우트 정보, 데이터베이스 조회까지 다양한 정보를 바로 찾아갈 수 있습니다.
+
+![image](https://user-images.githubusercontent.com/22822369/209290146-1949f633-a733-45b6-85f0-865e52667469.png)
+
+#### Routes.rb에서 추적할 경우
+
+    컨트롤러를 바로 찾아줍니다. / 컨트롤러에서 Routes로 찾으면 바로 찾아는 그곳으로 가지죠!
+
+#### View
+    view에서 사용할 경우 해당 화면이 호출된 컨트롤러로 가집니다. 
+
+### Cyclic Expand Word
+
+| 단축키                                             | Preference KeyMap Info |
+|-------------------------------------------------|------------------------|
+| OPT + / 정방향 (앞) / && OPT + SHIFT + / 역방향 (뒤) 복사 | Cyclic Expand Word     |
+
+    무언가 썻던 글을 반복하고 싶을떄 사용하는 단축키로써~~ 
+    단축키로써를 다시 다시2 입력해야한다면 복사해야 하는 귀찮음이 있겠죠?~
+    단 + OPT + / 를 입력한다면 반복 입력을 하지 않아도 됩니다! 영단어도 마찬가지! 
 
 ## MD 파일 작성 팁
 
@@ -33,14 +77,14 @@ JetBrains IDE를 잘 써보자
 
 ## Search
 
-| 단축키                                       | 기능                        | 언제쓰면 좋은가요?                   |
-|-------------------------------------------|---------------------------|------------------------------|
-| CMD + SHIFT + \                           | 전체 검색에서 URL 검색하는 방법       | 특정 URL 경로 찾고싶을 때             |
-| CMD + F  / CMD + SHIFT + F                | 해당 화면 검색 / 전체 검색          | 특정 문자열 검색                    |
-| SHIFT + SHIFT / CMD + O / CMD + SHIFT + O | 전체 파일 검색 / 클래스 검색 / 파일 검색 | 한개의 화면에 탭만 다름 각 검색용으로 쓰면 좋음  |
+| 단축키                                       | 기능                        | 언제쓰면 좋은가요?                  |
+|-------------------------------------------|---------------------------|-----------------------------|
+| CMD + SHIFT + \                           | 전체 검색에서 URL 검색하는 방법       | 특정 URL 경로 찾고싶을 때            |
+| CMD + F  / CMD + SHIFT + F                | 해당 화면 검색 / 전체 검색          | 특정 문자열 검색                   |
+| SHIFT + SHIFT / CMD + O / CMD + SHIFT + O | 전체 파일 검색 / 클래스 검색 / 파일 검색 | 한개의 화면에 탭만 다름 각 검색용으로 쓰면 좋음 |
 |||
 
-##     
+##         
 
 ## Plugin
 

@@ -96,8 +96,20 @@ JetBrains IDE를 잘 써보자
     jojoldu - Translation
     Presentaion Assistant
     Rainbow Bracket
-    CodeGlance
+    CodeGlance~~~
     GitToolBox
 
 
 ## ETC
+
+
+Meta Key Icon과 명칭
++	키 조합 (한 번에 같이 누른다.)	⇢	
++ 다음 단계 키 누르기	
++ ⌘	Mac Command Key	
++ ⌃	Mac Control Key
+⌥	Mac Option Key (Alt)	
++ ⇧	Mac Shift Key	
++ ⇪	Mac Capslock Key	
++ ↩	Mac Return
+ ⭠	화살표 왼쪽	⭢	화살표 오른쪽	⭡	화살표 위	⭣	화살표 아래

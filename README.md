@@ -17,6 +17,7 @@ JetBrains IDE를 잘 써보자
     
     Main Menu | Edit | Find Usages | Find Usages
     OPT + F7은 현재 사용된 메소드가 어디서 사용된지 추적합니다.
+    CMD + OPT + B 로 바로 찾을 수도 있구요
 
     Main Menu | Navigate | Goto by Reference Actions | Related Symbol...
     Relate Symbol은 관련 추적내용과 관련있는? 비슷한 상징으로 된걸 추적해주는 단축키에요
@@ -63,9 +64,12 @@ JetBrains IDE를 잘 써보자
 
 ## 코드 정리
 
-| 단축키           | 기능      | 언제쓰면 좋은가요?                      |
-|---------------|---------|---------------------------------|
-| CMD + OPT + L | 줄 자동 정렬 | DB 쿼리를 어딘가에서 가져왔다 혹은 여러 정렬 사용할떄 |
+| 단축키            | 기능                         | 언제쓰면 좋은가요?                      |
+|----------------|----------------------------|---------------------------------|
+| CMD + OPT + L  | 줄 자동 정렬                    | DB 쿼리를 어딘가에서 가져왔다 혹은 여러 정렬 사용할떄 |
+| CMD + G        | 현재 코드랑 똑같은 코드 선택           | 변수 선택할떄?                        |
+| CMD + CTRL + G | 현재 코드랑 똑같은 코드 전체 선택        | 변수 전체 수정시                       |
+| SHIFT + F6     | 연관된 (호출한) 부분 코드까지 다 고치는 방법 | 연관된 클래스 포함 전체 수정시               |
 
 ## Navigation
 
@@ -91,6 +95,7 @@ JetBrains IDE를 잘 써보자
 |---------------|----------|--------------------------|
 | CMD + OPT + L | 코드 정렬    | DB / Readme 파일 정리할때 좋습니다 |
 | CMD + ,       | 세팅창 바로켜기 | 세팅창을 바로 키고싶을때 사용합니다.     |
+
 ## Plugin
 
     jojoldu - Translation
@@ -99,17 +104,16 @@ JetBrains IDE를 잘 써보자
     CodeGlance~~~
     GitToolBox
 
-
 ## ETC
 
-
 Meta Key Icon과 명칭
-+	키 조합 (한 번에 같이 누른다.)	⇢	
-+ 다음 단계 키 누르기	
-+ ⌘	Mac Command Key	
-+ ⌃	Mac Control Key
-⌥	Mac Option Key (Alt)	
-+ ⇧	Mac Shift Key	
-+ ⇪	Mac Capslock Key	
-+ ↩	Mac Return
- ⭠	화살표 왼쪽	⭢	화살표 오른쪽	⭡	화살표 위	⭣	화살표 아래
+
++ 키 조합 (한 번에 같이 누른다.)    ⇢
++ 다음 단계 키 누르기
++ ⌘ Mac Command Key
++ ⌃ Mac Control Key
+  ⌥ Mac Option Key (Alt)
++ ⇧ Mac Shift Key
++ ⇪ Mac Capslock Key
++ ↩ Mac Return
+  ⭠ 화살표 왼쪽 ⭢ 화살표 오른쪽 ⭡ 화살표 위 ⭣ 화살표 아래
